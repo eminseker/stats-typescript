@@ -1,11 +1,13 @@
 {
   "name": "stats-typescript",
-  "version": "1.0.0",
-  "description": "Ortalama, medyan ve standart sapma hesaplayan istatistik aracı",
-  "main": "dist/stats.js",
+  "version": "2.0.0",
+  "description": "Ortalama, medyan, standart sapma ve yüzdelik hesaplayan modüler istatistik aracı",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/stats.js"
+    "test": "tsc && node --test \"dist/tests/*.test.js\"",
+    "start": "node dist/main.js"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",
