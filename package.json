@@ -1,0 +1,15 @@
+{
+  "name": "stats-typescript",
+  "version": "1.0.0",
+  "description": "Ortalama, medyan ve standart sapma hesaplayan istatistik aracı",
+  "main": "dist/stats.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/stats.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT"
+}
